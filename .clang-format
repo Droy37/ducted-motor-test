@@ -1,0 +1,7 @@
+BasedOnStyle: Chromium
+
+BinPackParameters: true
+
+IndentWidth: 4
+
+ColumnLimit: 120
