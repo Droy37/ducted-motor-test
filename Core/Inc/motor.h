@@ -11,10 +11,9 @@ extern "C" {
 
 #include "tim.h"
 
-#define ESC_BIT_0 15
-#define ESC_BIT_1 30
-#define ESC_CMD_BUF_LEN 16
-
+#define ESC_BIT_0 52
+#define ESC_BIT_1 105
+#define ESC_CMD_BUF_LEN 18
 
 class DuctedMotor {
    public:

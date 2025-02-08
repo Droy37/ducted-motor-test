@@ -18,7 +18,6 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "dma.h"
 #include "gpio.h"
 #include "motor.h"
 #include "tim.h"
@@ -87,19 +86,20 @@ int main(void) {
 
     /* Initialize all configured peripherals */
     MX_GPIO_Init();
-    MX_DMA_Init();
     MX_TIM1_Init();
     /* USER CODE BEGIN 2 */
     ducted_motor.init();
+
     /* USER CODE END 2 */
 
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
     while (1) {
         ducted_motor.handle();
+
         /* USER CODE END WHILE */
 
-        /* USER CODE BEN 3 */
+        /* USER CODE BEGIN 3 */
     }
     /* USER CODE END 3 */
 }

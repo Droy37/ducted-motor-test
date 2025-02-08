@@ -1,0 +1,3 @@
+D:/SJTU/RM/Projects/motor_test/cmake-build-debug-mingw-stm32/CMakeFiles/motor_test.elf.dir
+D:/SJTU/RM/Projects/motor_test/cmake-build-debug-mingw-stm32/CMakeFiles/edit_cache.dir
+D:/SJTU/RM/Projects/motor_test/cmake-build-debug-mingw-stm32/CMakeFiles/rebuild_cache.dir
